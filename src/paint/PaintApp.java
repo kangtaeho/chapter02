@@ -13,6 +13,7 @@ public class PaintApp {
 		
 		Ractangle ractangle = new Ractangle();
 		Circle circle = new Circle();
+		Triangle triangle = new Triangle();
 		
 		// 그리기
 		drawPoint(pt1);
@@ -24,17 +25,22 @@ public class PaintApp {
 		
 		// drawRectangle(ractangle);
 		
-		drawShape(ractangle); //ractangle 객체가 shape을 가리키고 있음
-		drawShape(circle);
+		//drawShape(ractangle); //ractangle 객체가 shape을 가리키고 있음
+		//drawShape(circle);
 		
-		
+		draw(circle);//인터페이스를 이용해서 연결
+
 		pt3.show(); //이상태로 컴파일하면 색이 나오지 않는다.. 이유는? color가 재정의 안되서(오버라이드하면 보임)
 
 	}
 	
-	public static void drawShape(Shape shape){//한꺼번에 몰아서 넣기
-		shape.draw();
+	public static void draw( Drawable drawable){ //인터페이스 사용
+		drawable.draw();
 	}
+	
+	//public static void drawShape(Shape shape){//한꺼번에 몰아서 넣기
+	//	shape.draw();
+	//}
 	
 	public static void drawPoint(Point point){
 		point.show();
