@@ -1,4 +1,4 @@
-package paint;
+package ka.ac.sum.paint;
 
 public class Ractangle extends Shape {
 	

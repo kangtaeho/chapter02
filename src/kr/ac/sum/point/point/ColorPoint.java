@@ -1,4 +1,4 @@
-package paint;
+package kr.ac.sum.point.point;
 
 public class ColorPoint extends Point {
 	

@@ -1,4 +1,6 @@
-package paint;
+package kr.ac.sum.point.point;
+
+import ka.ac.sum.paint.Drawable;
 
 public class Point implements Drawable{ //impements를 이용하여 인터페이스 연결  //연결하면 포인트에 빨간줄 뜨는데 그때 오버라이드 생성함녀 됨 (맨밑에 추가함)
 	

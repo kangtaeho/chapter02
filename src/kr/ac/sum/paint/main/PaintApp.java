@@ -1,4 +1,11 @@
-package paint;
+package kr.ac.sum.paint.main;
+
+import ka.ac.sum.paint.Circle;
+import ka.ac.sum.paint.Drawable;
+import ka.ac.sum.paint.Ractangle;
+import ka.ac.sum.paint.Triangle;
+import kr.ac.sum.point.point.ColorPoint;
+import kr.ac.sum.point.point.Point;
 
 public class PaintApp {
 
